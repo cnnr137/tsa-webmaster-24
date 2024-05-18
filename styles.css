@@ -27,7 +27,7 @@ html {
   font-size: 16px;
 }
 
-.navbar .logo {
+.navbar .home-logo {
   margin-right: auto;
 }
 
@@ -79,8 +79,6 @@ html {
 }
 
 .home {
-  width: 100%;
-  height: 100vh;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -105,10 +103,6 @@ html {
 .page {
   width: 100%;
   height: 100vh;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .page h1 {
@@ -119,11 +113,139 @@ html {
   background-color: green;
 }
 
-.programs {
-  background-color: lightgreen;
+.program-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 170vh;
+  width: 100%;
+  background-color: black;
 }
 
-.incentives{
+.program-page h2 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2em;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.light-green {
+  color: #8ed973;
+}
+
+#initiative-heading {
+  font-family: Verdana, Geneva, sans-serif;
+  color: white;
+  font-size: 2.6em;
+}
+
+#initiative-subheading {
+  color: #9fa2b2;
+  font-style: italic;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 1.3em;
+  font-weight: 100;
+  word-spacing: .125em;
+  margin-bottom: 150px;
+  letter-spacing: .1em;
+}
+
+.programs {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.prog {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  border: 5px solid #87d571;
+  border-radius: 70px;
+  width: 23%;
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.prog h2, .prog ul{
+  color: white;
+}
+
+.prog .logo {
+  margin-top: 35px;
+  width: 70%;
+  height: auto;
+  box-shadow:
+   0 0 15px 15px rgba(0, 0, 0, 0.3),
+   0 0 10px 10px white;
+}
+
+.prog h1, .prog h2, .prog p, .prog ul {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.prog ul {
+  position: relative;
+  left: -90px;
+  padding-left: 20px; 
+  list-style-type: none;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.prog ul li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-emphasis: 1000; 
+  font-size: 1em;
+  position: relative; 
+  padding-left: 25px;
+  margin-top: 18px;
+}
+
+.prog ul li::before {
+  content: '✔';
+  position: absolute;
+  left: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.prog h2 {
+  margin-top: 50px;
+  font-size: 2.5em;
+  width: 60%;
+}
+
+.prog p {
+  color: #9fa2b2;
+  font-family: Verdana, Geneva, sans-serif;
+  width: 62%;
+}
+
+.prog hr {
+  border: 1px solid #87d571;
+  border-radius: 5px;
+  height: 2px;
+  background-color: #87d571;
+  width: 70%;
+  margin-top: 30px;
+}
+
+.incentives {
   background-color: lightblue;
 }
 
@@ -131,3 +253,18 @@ html {
   background-color: forestgreen;
 }
 
+.learn-more {
+  margin-top: 150px;
+  width: 85%;
+  font-size: 1.25em;
+  height: 3em;
+  border-radius: 50px;
+  background: linear-gradient(to right, #00ad48, #008134);
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.learn-more:hover {
+  cursor: pointer;
+  box-shadow: 0 0 2px 2px rgba(255, 255, 255, 0.486);
+}
