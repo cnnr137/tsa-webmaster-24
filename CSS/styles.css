@@ -284,7 +284,7 @@ html {
 .scrollable {
   width: 100vw;
   height: 100vh;
-  overflow: scroll;
+  overflow: hidden;
 }
 
 .content {
@@ -327,6 +327,7 @@ html {
   font-size: 5vw;
   text-align: center;
   margin: 0;
+  letter-spacing: 8px;
 }
 
 .content h2 {
@@ -336,6 +337,7 @@ html {
   text-align: center;
   margin: 0;
   margin-top: 5%;
+  letter-spacing: 5px;
 }
 
 .content h3 {
@@ -361,6 +363,7 @@ html {
   margin-bottom: 5vw;
   margin-right: 2vw;
   margin-left: 2vw;
+  line-height: 150%;
 }
 
 body {
@@ -372,6 +375,7 @@ body {
   overflow: hidden;
   background-color: #16262E;
   font-family: 'Libre Franklin', sans-serif;
+  overflow: scroll;
 }
 
 * {
@@ -436,7 +440,7 @@ body {
 .card p {
   text-align: center;
   font-size: 1.4rem;
-  font: 'Libre Franklin', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   margin: 0 0 0.7em;
   color: var(--color-darkteal);
 }
@@ -444,15 +448,16 @@ body {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 900;
-  font: 'Libre Franklin', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   margin: 0 0 0.7em;
   color: var(--color-lightgreen);
+  letter-spacing: 0px;
 }
 .card h3 {
   text-align: center;
   font-size: 1.5rem;
   font-weight: 900;
-  font: 'Libre Franklin', sans-serif;
+  font-family: 'Libre Franklin', sans-serif;
   margin: 0 0 0.7em;
   color: var(--color-darkgreen);
 }
