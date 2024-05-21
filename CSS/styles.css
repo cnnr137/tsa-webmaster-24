@@ -384,8 +384,8 @@ body {
 
 .carousel {
   position: relative;
-  width: 23rem;
-  height: 23rem;
+  width: 40%;
+  height: 40vh;
   perspective: 1000px;
   margin: auto;
   transform-style: preserve-3d;
@@ -397,20 +397,20 @@ body {
   height: 125%;
   transform: rotateY(calc(var(--offset) * 50deg)) 
   scaleY(calc(1 + var(--abs-offset) * -0.2)) 
-  translateZ(calc(var(--abs-offset) * -20rem)) 
-  translateX(clamp(-10rem, calc(var(--offset) / var(--abs-offset) * -5rem), 10rem));
+  translateZ(calc(var(--abs-offset) * -50vw)) 
+  translateX(clamp(-10vw, calc(var(--offset) / var(--abs-offset) * -5vw), 10vw));
   filter: blur(calc(var(--abs-offset) * 1rem));
   transition: all 0.3s ease-out;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-content: stretch;
-  max-width: 65vw;
 }
 
 .card {
-  width: 125%;
-  height: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 56.25%;
+  width: 100%;
+  height: 100;
   margin: auto;
   padding: 1.5rem;
   background-color: white;
@@ -423,7 +423,7 @@ body {
 .card img {
   display: block;
   margin: 0 auto;
-  width: 25em;
+  max-width: 100%;
   height: auto;
 }
 
@@ -433,20 +433,20 @@ body {
 }
 
 .card-img-container:hover .card-img {
-  filter: drop-shadow(0 0 8px var(--color-lavendar)); 
+  filter: drop-shadow(0 0 10px var(--color-grey)); 
 }
 
 
 .card p {
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.3vw;
   font-family: 'Libre Franklin', sans-serif;
   margin: 0 0 0.7em;
   color: var(--color-darkteal);
 }
 .card h2 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 900;
   font-family: 'Libre Franklin', sans-serif;
   margin: 0 0 0.7em;
@@ -455,7 +455,7 @@ body {
 }
 .card h3 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
   font-weight: 900;
   font-family: 'Libre Franklin', sans-serif;
   margin: 0 0 0.7em;
@@ -468,24 +468,26 @@ body {
 
 .nav {
   color: var(--color-lightgreen);
-  font-size: 5rem;
+  font-size: 5vw; 
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 50%;
+  top: calc(10vw); 
   z-index: 2;
   cursor: pointer;
   user-select: none;
   background: unset;
   border: unset;
 }
+
 .nav.left {
-  transform: translateX(-150%) translatey(0%);
+  transform: translateX(calc(-5vw - 2.5vw));
   filter: drop-shadow(1px 1px 2px var(--color-darkteal));
 }
+
 .nav.right {
   right: 0;
-  transform: translateX(300%) translatey(0%);
+  transform: translateX(calc(5vw + 2.5vw));
   filter: drop-shadow(1px 1px 2px var(--color-darkteal));
 }
