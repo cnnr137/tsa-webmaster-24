@@ -4,38 +4,41 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>EARTHIGIZER | ENERGY STAR</title>
+		<title>EARTHIGIZER | FAQ</title>
 		<link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
 	</head>
 	<body>
         <div class="top-navbar scrolled">
 			<div id="home-title">
-				<a href="index.html"
-					><h2 id="EARTHIGIZER-heading">
+				<a href="../index.html">
+                    <img src="../Images/Earthigizer.png" class="logo">
+                    <h2 id="EARTHIGIZER-heading">
 						<span class="green-text" id="title">EARTH</span>IGIZER
 					</h2></a
 				>
 			</div>
 			<div class="links">
-				<a href="" class="link-content">HOME</a>
+				<a href="../index.html" class="link-content">HOME</a>
 				<div class="dropdown">
 					<a href="" class="link-content">BENEFITS</a>
 					<div class="dropdown-content">
-						<a href="#">Better Health</a>
+						<a href="/HTML/Benefits.html#better_health">Better Health</a>
 						<hr />
-						<a href="#">Sustainability</a>
+						<a href="/HTML/Benefits.html#sustainability">Sustainability</a>
 						<hr />
-						<a href="#">Tax Rebates</a>
+						<a href="/HTML/Benefits.html#tax_rebates">Tax Rebates</a>
 						<hr />
-						<a href="#">Smart Home</a>
+						<a href="/HTML/Benefits.html#smart_home">Smart Home</a>
 					</div>
 				</div>
 				<div class="dropdown">
 					<a href="" class="link-content">INITIATIVES</a>
 					<div class="dropdown-content">
-						<a href="/HTML/EnergySTAR.html">EnergySTAR</a>
+						<a href="/HTML/Solar Panels.html">Solar Panels</a>
 						<hr />
-						<a href="#">WaterSense</a>
+                        <a href="/HTML/Wind Turbines.html">Wind Turbines</a>
+						<hr />
+                        <a href="/HTML/ENERGY STAR.html">ENERGY STAR</a>
 						<hr />
 						<a href="/HTML/CHP.html">CHP</a>
 					</div>
@@ -43,9 +46,9 @@
 				<div class="dropdown">
 					<a href="" class="link-content">ABOUT US</a>
 					<div class="dropdown-content">
-						<a href="#">References</a>
+						<a href="/HTML/References">References</a>
 						<hr />
-						<a href="#">FAQ</a>
+						<a href="/HTML/FAQ">FAQ</a>
 					</div>
 				</div>
 			</div>
@@ -149,10 +152,10 @@
 					<!--Bottom Naviagation Bar Benefits Title-->
 					<div id="benefits-list">
 						<ul class="bottom-list">
-							<a href=""><li>Better Health</li></a>
-							<a href=""><li>Sustainability</li></a>
-							<a href=""><li>Tax Rebates</li></a>
-							<a href=""><li>Smart Home</li></a>
+							<a href="/HTML/Benefits.html#better_health"><li>Better Health</li></a>
+							<a href="/HTML/Benefits.html#sustainability"><li>Sustainability</li></a>
+							<a href="/HTML/Benefits.html#tax_rebates"><li>Tax Rebates</li></a>
+							<a href="/HTML/Benefits.html#smart_home"><li>Smart Home</li></a>
 						</ul>
 					</div>
 				</div>
@@ -169,10 +172,10 @@
 					<!--Botton Naviagation Bar Intiatives Title-->
 					<div id="intiatives-list">
 						<ul class="bottom-list">
-							<a href=""><li>EnergySTAR</li></a>
-							<a href=""><li>WaterSense</li></a>
-							<a href=""><li>CHP</li></a>
-							<a href=""><li>EPA Tax Rebates</li></a>
+                            <a href="/HTML/Solar Panels.html"><li>Solar Panels</li></a>
+							<a href="/HTML/Wind Turbines.html"><li>Wind Turbines</li></a>
+                            <a href="/HTML/ENERGY STAR.html"><li>ENERGY STAR</li></a>
+							<a href="/HTML/CHP.html"><li>CHP</li></a>
 						</ul>
 					</div>
 					<!-- Bottom Naviagation Bar Intiatives Lists-->
@@ -187,8 +190,8 @@
 					<!--Bottom Naviagation Bar "About Us" Title-->
 					<div id="about-list">
 						<ul class="bottom-list">
-							<a href=""><li>References</li></a>
-							<a href=""><li>FAQ</li></a>
+							<a href="/HTML/References"><li>References</li></a>
+							<a href="/HTML/FAQ"><li>FAQ</li></a>
 						</ul>
 					</div>
 				</div>

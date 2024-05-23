@@ -38,6 +38,7 @@
 
 .top-navbar h2 {
 	margin: 0;
+  float: right;
 }
 
 .top-navbar a {
@@ -147,7 +148,7 @@
 	width: 65vw;
 	height: 100vh;
 	position: absolute;
-	top: 50%;
+	top: 95%;
 	left: 50%;
 	transform: translate(-50%, -15vw);
 	background: var(--color-darkteal);
@@ -158,6 +159,7 @@
 	height: 50%;
 	width: 100%;
 	align-self: auto;
+  position: absolute;
 	background: linear-gradient(var(--color-lightgreen,), var(--color-darkgreen));
 }
 
@@ -232,6 +234,7 @@ body {
 	background-color: #16262e;
 	font-family: "Libre Franklin", sans-serif;
 	overflow: scroll;
+  overflow-x: hidden
 }
 
 * {
@@ -563,7 +566,7 @@ details[open] div{
 }
 
 #bottom-navbar {
-	width: 100%;
+	width: 103%;
 	height: 50vh;
 	display: flex;
 	justify-content: space-between;
@@ -617,4 +620,13 @@ details[open] div{
 .bot-nav-line {
 	text-align: left;
 	width: 150%;
+}
+
+.logo {
+  height:4vh;
+  width: auto;
+  float: left;
+  margin-top: -0.5vh;
+  margin-bottom: 1vh;
+  margin-right: 0.5vw;
 }
