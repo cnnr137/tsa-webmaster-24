@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body,
 html {
 	margin: 0;
@@ -331,7 +335,7 @@ html {
 
 .prog p {
 	color: #9fa2b2;
-	font-family: Verdana, Geneva, sans-serif;
+	font-family: 'Libre Franklin', Geneva, sans-serif;
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
@@ -364,6 +368,7 @@ html {
 	flex-direction: column;
 	align-items: center;
 	background-color: #18242c;
+	filter:drop-shadow(0 0 10vw #18242c)
 }
 
 #benefits-title {
