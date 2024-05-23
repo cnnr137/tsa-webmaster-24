@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>EARTHIGIZER | ENERGY STAR</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
+	</head>
+	<body>
+        <div class="top-navbar scrolled">
+			<div id="home-title">
+				<a href="index.html">
+                    <h2 id="EARTHIGIZER-heading">
+						<span class="green-text" id="title">EARTHIGIZER
+					</h2></a>
+			</div>
+			<div class="links">
+				<a href="" class="link-content">HOME</a>
+				<div class="dropdown">
+					<a href="" class="link-content">BENEFITS</a>
+					<div class="dropdown-content">
+						<a href="#">Better Health</a>
+						<hr />
+						<a href="#">Sustainability</a>
+						<hr />
+						<a href="#">Tax Rebates</a>
+						<hr />
+						<a href="#">Smart Home</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="" class="link-content">INITIATIVES</a>
+					<div class="dropdown-content">
+						<a href="/HTML/EnergySTAR.html">EnergySTAR</a>
+						<hr />
+						<a href="#">WaterSense</a>
+						<hr />
+						<a href="/HTML/CHP.html">CHP</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="" class="link-content">ABOUT US</a>
+					<div class="dropdown-content">
+						<a href="#">References</a>
+						<hr />
+						<a href="#">FAQ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="scrollable">
+					<div class="rectangle"></div>
+						<div id="FAQ" class="content">
+                            <h2>ABOUT US</h2>
+							<h1>REFERENCES</h1>
+							<hr/>
+                            <a href="https://gcecnjorg-my.sharepoint.com/:b:/g/personal/patel_sanvi_students_gcecnj_org/ESMXb8rzZE1MvVKjOQOhM18BjelGkXqZjyHktZyKnElLBQ?e=QXC6aZ">
+                            <h3 style="text-align: center;">TSA work log</h3>
+                            </a>
+                            <a href="https://gcecnjorg-my.sharepoint.com/:b:/g/personal/dfavat_gcecnj_org/EQq-hi3XX8ZGsKVlHljNX2oBXjoyCxBjxXs7Uw8fgkVPog?e=qjHUFO">
+                                <h3 style="text-align: center;">student copyright checklist</h3>
+                            </a>
+                            <a href="https://gcecnjorg-my.sharepoint.com/:w:/g/personal/patel_sanvi_students_gcecnj_org/EZQ4-Htv78ZKtknXrs_Mz_gB-IjPbgYP3EQ6xQqtw2PFxA?e=7rHU44">
+                                <h3 style="text-align: center;">image links cited</h3>
+                            </a>
+                            <a href="https://gcecnjorg-my.sharepoint.com/:w:/g/personal/patel_sanvi_students_gcecnj_org/EYscZKP_x8dLnlCjI-JbPvoBlxNzbr_js6xdyzAjJGZNdg?e=XEdkjE">
+                                <h3 style="text-align: center;">works cited</h3>
+                            </a>
+                        </div>
+                              <div id="bottom-navbar" style="position: absolute; bottom: -50%;">
+			<div id="benefits-bottom">
+				<div class="bot-nav-content">
+					<div id="benefits-bottom-title">
+						<h3>BENEFITS</h3>
+						<hr class="bot-nav-line" />
+					</div>
+					<!--Bottom Naviagation Bar Benefits Title-->
+					<div id="benefits-list">
+						<ul class="bottom-list">
+							<a href=""><li>Better Health</li></a>
+							<a href=""><li>Sustainability</li></a>
+							<a href=""><li>Tax Rebates</li></a>
+							<a href=""><li>Smart Home</li></a>
+						</ul>
+					</div>
+				</div>
+				<!--Bottom Naviagation Bar Benefits List-->
+			</div>
+			<!--Bottom Naviagation Bar Benefits Section-->
+
+			<div id="intiatives-bottom">
+				<div class="bot-nav-content">
+					<div id="intiatives-bottom-title">
+						<h3>INTIATIVES</h3>
+						<hr class="bot-nav-line" />
+					</div>
+					<!--Botton Naviagation Bar Intiatives Title-->
+					<div id="intiatives-list">
+						<ul class="bottom-list">
+							<a href=""><li>EnergySTAR</li></a>
+							<a href=""><li>WaterSense</li></a>
+							<a href=""><li>CHP</li></a>
+							<a href=""><li>EPA Tax Rebates</li></a>
+						</ul>
+					</div>
+					<!-- Bottom Naviagation Bar Intiatives Lists-->
+				</div>
+			</div>
+			<div id="about-bottom">
+				<div class="bot-nav-content">
+					<div id="about-bottom-title">
+						<h3>ABOUT US</h3>
+						<hr class="bot-nav-line" />
+					</div>
+					<!--Bottom Naviagation Bar "About Us" Title-->
+					<div id="about-list">
+						<ul class="bottom-list">
+							<a href=""><li>References</li></a>
+							<a href=""><li>FAQ</li></a>
+						</ul>
+					</div>
+				</div>
+				<!--Bottom -->
+		</div>						
+			</div>
+		</div>
+	</body>
+</html>
