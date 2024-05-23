@@ -1,335 +1,298 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>EARTHIGIZER | Home</title>
-		<link rel="stylesheet" href="../CSS/main-styles.css" />
-		<script src="../JavaScript/script.js"></script>
-	</head>
-	<body>
-		<div class="top-navbar unscrolled">
-			<div id="home-title">
-				<a href="index.html"
-					><h2 id="EARTHIGIZER-heading">
-						<span class="green-text" id="title">EARTH</span>IGIZER
-					</h2></a
-				>
-			</div>
-			<div class="links">
-				<a href="" class="link-content">HOME</a>
-				<div class="dropdown">
-					<a href="" class="link-content">BENEFITS</a>
-					<div class="dropdown-content">
-						<a href="#">Better Health</a>
-						<hr />
-						<a href="#">Sustainability</a>
-						<hr />
-						<a href="#">Tax Rebates</a>
-						<hr />
-						<a href="#">Smart Home</a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<a href="" class="link-content">INITIATIVES</a>
-					<div class="dropdown-content">
-						<a href="/HTML/EnergySTAR.html">EnergySTAR</a>
-						<hr />
-						<a href="#">WaterSense</a>
-						<hr />
-						<a href="/HTML/CHP.html">CHP</a>
-					</div>
-				</div>
-				<div class="dropdown">
-					<a href="" class="link-content">ABOUT US</a>
-					<div class="dropdown-content">
-						<a href="#">References</a>
-						<hr />
-						<a href="#">FAQ</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!--Top Naviagation Bar (TAB 1 = Energy Star) This tab is a drop down;
-            I will fix these tabs later to make them drop-down buttons:
-            (TAB 2 = WaterSense); 
-            (TAB 3 = CHP); 
-            (TAB 4 = Additional Incentives). 
-            Tabs will link to relative webpages on different programs in 
-            initiatives, etc. This top-bar is shown when entering
-            into the page. Make sure to lock the nav-bar in place in 
-            CSS, so while scrolling it doesn't move.
-        -->
-		<div class="home-page page">
-			<!--The EARTHIGIZER title on the welcome/homepage-->
-			<div class="content">
-				<div class="motto">
-					<h3 id="clean-heading">CLEAN</h3>
-					<h1 id="green-heading">GREEN</h1>
-					<h1 id="future-heading">FUTURE</h1>
-					<p id="sentence-motto">Empower your future with renewable energy</p>
-				</div>
-				<!--This the CLEAN, GREEN, FUTURE...motto below the EARTHIGIZER title on the design.-->
-				<div class="welcome-button">
-					<a href="" id="renewable-energy-info">
-						<button id="home-button">LEARN HOW</button>
-					</a>
-				</div>
-			</div>
-		</div>
-		<!--This is the "LEARN MORE" button linking to another relative page.-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EARTHIGIZER | Home</title>
+    <link rel="stylesheet" href="CSS/main-styles.css" />
+    <script src="JavaScript/script.js"></script>
+  </head>
+  <body>
+    <div class="top-navbar unscrolled">
+      <div id="home-title">
+        <a href="index.html"
+          ><h2 id="EARTHIGIZER-heading">
+            <span class="green-text" id="title">EARTH</span>IGIZER
+          </h2></a
+        >
+      </div>
+      <div class="links">
+        <a href="" class="link-content">HOME</a>
+        <div class="dropdown">
+          <a href="" class="link-content">BENEFITS</a>
+          <div class="dropdown-content">
+            <a href="#">Better Health</a>
+            <hr />
+            <a href="#">Sustainability</a>
+            <hr />
+            <a href="#">Tax Rebates</a>
+            <hr />
+            <a href="#">Smart Home</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="" class="link-content">INITIATIVES</a>
+          <div class="dropdown-content">
+            <a href="#">EnergySTAR</a>
+            <hr />
+            <a href="#">WaterSense</a>
+            <hr />
+            <a href="#">CHP</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="" class="link-content">ABOUT US</a>
+          <div class="dropdown-content">
+            <a href="#">References</a>
+            <hr />
+            <a href="#">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="home-page page">
+      <div class="content">
+        <div class="motto">
+          <h3 id="clean-heading">CLEAN</h3>
+          <h1 id="green-heading">GREEN</h1>
+          <h1 id="future-heading">FUTURE</h1>
+          <p id="sentence-motto">Empower your future with renewable energy</p>
+        </div>
+        <div class="welcome-button">
+          <a href="" id="renewable-energy-info">
+            <button id="home-button">LEARN HOW</button>
+          </a>
+        </div>
+      </div>
+    </div>
 
-		<div class="benefits-page page">
-			<div id="benefits-title">
-				<h1>THE BENEFITS</h1>
-			</div>
-			<div class="benefit-columns">
-				<div id="column-1" class="column">
-					<div class="better-health benefit-block">
-						<div class="benefit-block-inner">
-							<div id="better-health-title">
-								<h3>BETTER HEALTH</h3>
-							</div>
-							<div class="clear-button">
-								<button class="gradient-button"><p>READ MORE</p></button>
-							</div>
-						</div>
-					</div>
-					<div class="Sustainability benefit-block">
-						<div class="benefit-block-inner">
-							<div id="sustainability-title">
-								<h3>SUSTAINABILITY</h3>
-							</div>
-							<div class="clear-button">
-								<button class="gradient-button"><p>READ MORE</p></button>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div id="column-2" class="column">
-					<div class="tax-rebates benefit-block">
-						<div class="benefit-block-inner">
-							<div id="tax-rebates-title">
-								<h3>TAX REBATES</h3>
-							</div>
-							<div class="clear-button">
-								<button class="gradient-button"><p>READ MORE</p></button>
-							</div>
-						</div>
-					</div>
-					<div class="smart-home benefit-block">
-						<div class="benefit-block-inner">
-							<div id="smart-home-title">
-								<h3>SMART HOME</h3>
-							</div>
-							<div class="clear-button">
-								<button class="gradient-button"><p>READ MORE</p></button>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+    <div class="benefits-page page">
+      <div id="benefits-title">
+        <h1>THE BENEFITS</h1>
+      </div>
+      <div class="benefit-columns">
+        <div id="column-1" class="column">
+          <div class="better-health benefit-block">
+            <div class="benefit-block-inner">
+              <div id="better-health-title">
+                <h3>BETTER HEALTH</h3>
+              </div>
+              <div class="clear-button">
+                <button class="gradient-button"><p>READ MORE</p></button>
+              </div>
+            </div>
+          </div>
+          <div class="Sustainability benefit-block">
+            <div class="benefit-block-inner">
+              <div id="sustainability-title">
+                <h3>SUSTAINABILITY</h3>
+              </div>
+              <div class="clear-button">
+                <button class="gradient-button"><p>READ MORE</p></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="column-2" class="column">
+          <div class="tax-rebates benefit-block">
+            <div class="benefit-block-inner">
+              <div id="tax-rebates-title">
+                <h3>TAX REBATES</h3>
+              </div>
+              <div class="clear-button">
+                <button class="gradient-button"><p>READ MORE</p></button>
+              </div>
+            </div>
+          </div>
+          <div class="smart-home benefit-block">
+            <div class="benefit-block-inner">
+              <div id="smart-home-title">
+                <h3>SMART HOME</h3>
+              </div>
+              <div class="clear-button">
+                <button class="gradient-button"><p>READ MORE</p></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-		<div class="program-page">
-			<div id="initiative-title">
-				<h2 id="light-green">Renewable Changes</h2>
-				<h1 id="initiative-heading">THE INITIATIVES</h1>
-				<p id="initiative-subheading">
-					Five ways for YOU to convert to green energy
-				</p>
-			</div>
-			<!--This is where the initiative section starts, these are
-        the starters/titles, etc.
-        -->
-			<div class="incentive-products">
-				<div class="solar-panel">
-					<div id="solar-panel-image">
-						<img src="/Images/solar_panel_home.png" />
-					</div>
-					<div id="solar-panel-title">
-						<h3>SOLAR PANELS</h3>
-					</div>
-					<div id="solar-paragraph">
-						<p>Converts sunlight into electrical energy to power your homes!</p>
-					</div>
-					<div id="solar-checklist">
-						<ul id="solar-lolo">
-							<li>Save Water</li>
-							<li>Exceptional Performance</li>
-						</ul>
-						<ul id="solar-lala">
-							<li>Save Water</li>
-							<li>Exceptional Performance</li>
-						</ul>
-					</div>
-					<div class="initiative-button">
-						<a href="">
-							<button class="dark-green-button">LEARN HOW</button>
-						</a>
-					</div>
-				</div>
-				<div class="wind-turbine">
-					<div id="wind-turbine-image">
-						<img src="/Images/wind_turbine_1.png" />
-					</div>
-				</div>
-				<div id="wind-turbine-title">
-					<h3>WIND TURBINES</h3>
-				</div>
-				<div id="wind-paragraph">
-					<p>yooo add some wordsss</p>
-				</div>
-				<div id="wind-checklist">
-					<ul id="wind-lolo">
-						<li>Save Water</li>
-						<li>Exceptional Performance</li>
-					</ul>
-					<ul id="wind-lala">
-						<li>Save Water</li>
-						<li>Exceptional Performance</li>
-					</ul>
-				</div>
-				<div class="initiative-button">
-					<a href="">
-						<button class="dark-green-button">LEARN HOW</button>
-					</a>
-				</div>
-			</div>
-		</div>
+    <div class="program-page">
+      <div id="initiative-title">
+        <h2 id="light-green">Renewable Changes</h2>
+        <h1 id="initiative-heading">THE INITIATIVES</h1>
+        <p id="initiative-subheading">
+          Five ways for YOU to convert to green energy
+        </p>
+      </div>
 
-		<div class="program-cards">
-			<!--Cards for the initiative.-->
-			<div id="EnergyStar-Card" class="prog">
-				<img
-					src="/Images/Energy_Star_logo.png"
-					alt="EnergyStar Logo"
-					class="logo"
-				/>
-				<!--EnergyStar Logo Image-->
-				<div class="title">
-					<h2>EnergySTAR</h2>
-				</div>
-				<!--EnergyStar Title-->
-				<div class="info">
-					<p>
-						To find home appliances which are energy efficient, choose products
-						which are EnergyStar-certified to help you conserve energy at home!
-					</p>
-				</div>
-				<hr />
-				<!--EneryStar Basic Info-->
-				<div class="checks">
-					<ul>
-						<li>Save Costs on Electricity</li>
-						<li>Conserve Energy</li>
-						<li>Clean Environment</li>
-						<li>Tax Credits</li>
-					</ul>
-				</div>
-				<!--List of benefits checked-->
-				<div class="initiative-button">
-					<a href="">
-						<button class="dark-green-button">LEARN HOW</button>
-					</a>
-				</div>
-				<!--The "LEARN MORE" button-->
-			</div>
-			<!--EnergyStar Card-->
+      <div class="incentive-products">
+        <div class="ind-product">
+          <div class="prod-image">
+            <img src="#" alt="hello" />
+          </div>
+          <div class="prod-info">
+            <div id="wind-turbine-title">
+              <h3>SOLAR PANELS</h3>
+            </div>
+            <p>Converts sunlight into electrical energy to power your homes!</p>
+            <hr class="prod-line" />
+            <div id="wind-checklist">
+              <ul>
+                <li>Zero Emissions</li>
+                <li>Low-Maintenance</li>
+                <li>Sun-powered</li>
+                <li>Renewable Energy Source</li>
+              </ul>
+            </div>
+            <div class="initiative-button">
+              <a href="">
+                <button class="prod-button">LEARN MORE</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="ind-product" id="wind-product">
+          <div class="prod-info">
+            <div id="wind-turbine-title">
+              <h3>WIND TURBINES</h3>
+            </div>
+            <p>Gathers energy from the wind to electrify your house!</p>
+            <hr class="prod-line" />
+            <div id="wind-checklist">
+              <ul>
+                <li>Save Water</li>
+                <li>Exceptional Performance</li>
+                <li>Save Water</li>
+                <li>Exceptional Performance</li>
+              </ul>
+            </div>
+            <div class="initiative-button">
+              <a href="">
+                <button id="wind-button" class="prod-button">LEARN MORE</button>
+              </a>
+            </div>
+          </div>
+          <div class="prod-image">
+            <img src="#" alt="windturbine jawn" />
+          </div>
+        </div>
+      </div>
 
-			<div id="CHP-Card" class="prog">
-				<img
-					src="/Images/chp_mark.gif"
-					alt="Combined Heat and Power logo"
-					class="logo"
-				/>
-				<!--CHP Logo Image-->
-				<div class="title">
-					<h2>Combined Heat and Power</h2>
-				</div>
-				<!--CHP Title-->
-				<div id="chp-p" class="info">
-					<p>
-						CHP technologies allows usage of combined heat and power, reducing
-						emissions in the atmosphere. All that, right from your home!
-					</p>
-				</div>
-				<!--CHP Basic Info-->
-				<hr id="chp-line" />
-				<div class="checks">
-					<ul id="chp-list">
-						<li>Significant Fuel</li>
-						<li>Emission Savings</li>
-						<li>Affordable</li>
-						<li>Reliable Energy</li>
-					</ul>
-				</div>
-				<!--CHP Check List-->
-				<div class="initiative-button">
-					<a href="">
-						<button class="dark-green-button">LEARN HOW</button>
-					</a>
-				</div>
-				<!--CHP Button List-->
-			</div>
-		</div>
-		<!--CHP Card-->
+      <div class="program-cards">
+        <div id="EnergyStar-Card" class="prog">
+          <img src="" alt="EnergyStar Logo" class="logo" />
+          <div class="title">
+            <h2>EnergySTAR</h2>
+          </div>
+          <div class="info">
+            <p>
+              To find home appliances which are energy efficient, choose
+              products which are EnergyStar-certified to help you conserve
+              energy at home!
+            </p>
+          </div>
+          <hr />
+          <div class="checks">
+            <ul>
+              <li>Save Costs on Electricity</li>
+              <li>Conserve Energy</li>
+              <li>Clean Environment</li>
+              <li>Tax Credits</li>
+            </ul>
+          </div>
+            <a href="">
+              <button class="dark-green-button">LEARN HOW</button>
+            </a>
+        </div>
 
-		<div id="bottom-navbar">
-			<div id="benefits-bottom">
-				<div class="bot-nav-content">
-					<div id="benefits-bottom-title">
-						<h3>BENEFITS</h3>
-						<hr class="bot-nav-line" />
-					</div>
-					<!--Bottom Naviagation Bar Benefits Title-->
-					<div id="benefits-list">
-						<ul class="bottom-list">
-							<a href=""><li>Better Health</li></a>
-							<a href=""><li>Sustainability</li></a>
-							<a href=""><li>Tax Rebates</li></a>
-							<a href=""><li>Smart Home</li></a>
-						</ul>
-					</div>
-				</div>
-				<!--Bottom Naviagation Bar Benefits List-->
-			</div>
-			<!--Bottom Naviagation Bar Benefits Section-->
+        <div id="CHP-Card" class="prog">
+          <img
+            src="chp_mark.gif"
+            alt="Combined Heat and Power logo"
+            class="logo"
+          />
+          <div class="title">
+            <h2>CHP</h2>
+          </div>
+          <div id="chp-p" class="info">
+            <p>
+              CHP technologies allows usage of combined heat and power, reducing
+              emissions in the atmosphere. All that, right from your home!
+            </p>
+          </div>
+          <hr id="chp-line" />
+          <div class="checks">
+            <ul id="chp-list">
+              <li>Significant Fuel</li>
+              <li>Emission Savings</li>
+              <li>Affordable</li>
+              <li>Reliable Energy</li>
+            </ul>
+          </div>
+            <a href="">
+              <button class="dark-green-button">LEARN HOW</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
-			<div id="initiatives-bottom">
-				<div class="bot-nav-content">
-					<div id="initiatives-bottom-title">
-						<h3>INTIATIVES</h3>
-						<hr class="bot-nav-line" />
-					</div>
-					<!--Botton Naviagation Bar Intiatives Title-->
-					<div id="initiatives-list">
-						<ul class="bottom-list">
-							<a href=""><li>EnergySTAR</li></a>
-							<a href=""><li>WaterSense</li></a>
-							<a href=""><li>CHP</li></a>
-							<a href=""><li>EPA Tax Rebates</li></a>
-						</ul>
-					</div>
-					<!-- Bottom Naviagation Bar Intiatives Lists-->
-				</div>
-			</div>
-			<div id="about-bottom">
-				<div class="bot-nav-content">
-					<div id="about-bottom-title">
-						<h3>ABOUT US</h3>
-						<hr class="bot-nav-line" />
-					</div>
-					<!--Bottom Naviagation Bar "About Us" Title-->
-					<div id="about-list">
-						<ul class="bottom-list">
-							<a href=""><li>References</li></a>
-							<a href=""><li>FAQ</li></a>
-						</ul>
-					</div>
-				</div>
-				<!--Bottom -->
-			</div>
-		</div>
-	</body>
+    <div id="bottom-navbar">
+      <div id="benefits-bottom">
+        <div class="bot-nav-content">
+          <div id="benefits-bottom-title">
+            <h3>BENEFITS</h3>
+            <hr class="bot-nav-line" />
+          </div>
+          <!--Bottom Naviagation Bar Benefits Title-->
+          <div id="benefits-list">
+            <ul class="bottom-list">
+              <a href=""><li>Better Health</li></a>
+              <a href=""><li>Sustainability</li></a>
+              <a href=""><li>Tax Rebates</li></a>
+              <a href=""><li>Smart Home</li></a>
+            </ul>
+          </div>
+        </div>
+        <!--Bottom Naviagation Bar Benefits List-->
+      </div>
+      <!--Bottom Naviagation Bar Benefits Section-->
+
+      <div id="initiatives-bottom">
+        <div class="bot-nav-content">
+          <div id="initiatives-bottom-title">
+            <h3>INITIATIVES</h3>
+            <hr class="bot-nav-line" />
+          </div>
+          <!--Botton Naviagation Bar Initiatives Title-->
+          <div id="initiatives-list">
+            <ul class="bottom-list">
+              <a href=""><li>EnergySTAR</li></a>
+              <a href=""><li>WaterSense</li></a>
+              <a href=""><li>CHP</li></a>
+              <a href=""><li>EPA Tax Rebates</li></a>
+            </ul>
+          </div>
+          <!-- Bottom Naviagation Bar Intiatives Lists-->
+        </div>
+      </div>
+      <div id="about-bottom">
+        <div class="bot-nav-content">
+          <div id="about-bottom-title">
+            <h3>ABOUT US</h3>
+            <hr class="bot-nav-line" />
+          </div>
+          <!--Bottom Naviagation Bar "About Us" Title-->
+          <div id="about-list">
+            <ul class="bottom-list">
+              <a href=""><li>References</li></a>
+              <a href=""><li>FAQ</li></a>
+            </ul>
+          </div>
+        </div>
+        <!--Bottom -->
+      </div>
+    </div>
+  </body>
 </html>
