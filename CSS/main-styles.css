@@ -117,7 +117,7 @@ html {
 .home-page {
   display: flex;
   align-items: center;
-  background-image: url(Home-image.jpg);
+  background-image: url(../Images/home_image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -204,9 +204,10 @@ html {
   justify-content: space-between;
   padding: 20px;
   box-sizing: border-box;
-  height: 220vh;
+  height: 300vh;
   width: 100%;
-  background-color: black;
+  background-size:cover;
+  background-image: url(../Images/homepage_initiative.png);
 }
 
 .program-page h2 {
