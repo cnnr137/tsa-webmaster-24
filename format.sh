@@ -2,7 +2,7 @@
 
 extensions=(
     "*.ts"
-    ".js"
+    "*.js"
     "*.json"
     "*.md"
     "*.yaml"
