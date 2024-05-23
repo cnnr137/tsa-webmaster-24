@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>EARTHIGIZER | FAQ</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/styles.css" />
+	</head>
+	<body>
+        <div class="top-navbar scrolled">
+			<div id="home-title">
+				<a href="../index.html">
+                    <img src="../Images/Earthigizer.png" class="logo">
+                    <h2 id="EARTHIGIZER-heading">
+						<span class="green-text" id="title">EARTH</span>IGIZER
+					</h2></a
+				>
+			</div>
+			<div class="links">
+				<a href="../index.html" class="link-content">HOME</a>
+				<div class="dropdown">
+					<a href="" class="link-content">BENEFITS</a>
+					<div class="dropdown-content">
+						<a href="/HTML/Benefits.html#better_health">Better Health</a>
+						<hr />
+						<a href="/HTML/Benefits.html#sustainability">Sustainability</a>
+						<hr />
+						<a href="/HTML/Benefits.html#tax_rebates">Tax Rebates</a>
+						<hr />
+						<a href="/HTML/Benefits.html#smart_home">Smart Home</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="" class="link-content">INITIATIVES</a>
+					<div class="dropdown-content">
+						<a href="/HTML/Solar Panels.html">Solar Panels</a>
+						<hr />
+                        <a href="/HTML/Wind Turbines.html">Wind Turbines</a>
+						<hr />
+                        <a href="/HTML/ENERGY STAR.html">ENERGY STAR</a>
+						<hr />
+						<a href="/HTML/CHP.html">CHP</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<a href="" class="link-content">ABOUT US</a>
+					<div class="dropdown-content">
+						<a href="/HTML/References">References</a>
+						<hr />
+						<a href="/HTML/FAQ">FAQ</a>
+					</div>
+				</div>
+			</div>
+		</div>
+				<div class="scrollable">
+					<div class="rectangle"></div>
+						<div id="FAQ" class="content" style="top: 45%">
+                            <h2>ABOUT US</h2>
+							<h1>FREQUENTLY ASKED QUESTIONS</h1>
+							<hr/>
+                            <div class="container">
+                                <details>
+                                <summary>How can we claim tax credit?
+                                </summary>
+                                <div>
+                                    Apply through filing <span style="color:#8ed973;">Form 5695</span> with tax to claim your tax credits. 
+                                    You can be eligible to claim it after installing the renewable energy 
+                                    system but not during purchase.
+                                </div>
+                              </details>
+                              </div>	
+                              <div class="container">
+                                <details>
+                                <summary>How long does it take to recoup investments in renewable energy?
+                                </summary>
+                                <div>
+                                    To recoup investments on renewable energy systems, it usually takes on average 
+                                    <span style="color:#8ed973;">six to ten years</span>, which is dependent 
+                                    on various factors. 
+                                </div>
+                              </details>
+                              </div>	
+                              <div class="container">
+                                <details>
+                                <summary>How affordable is renewable energy compared <br> to investing in 
+                                    non-renewable energy?
+                                </summary>
+                                <div>
+                                    According to the International Renewable Energy Agency, in 2022, the price of 
+                                    renewable sources of energy such as solar photovoltaic energy costs <span style="color:#8ed973;">
+                                    $0.0636 per kWh</span>, while fossil fuels costs <span style="color:#8ed973;">$0.2691 per kWh.</span>
+                                     Through the years, the cost of renewable energy is drastically dropping. Also, investing in renewable energy allows 
+                                    for various benefits without any external costs, unlike non-renewable energy, which 
+                                    could cause environmental damage, property damage, and health problems.
+                                </div>
+                              </details>
+                              </div>
+                              <div class="container">
+                                <details>
+                                <summary>What is the process for installing residential <br> solar panels or any other renewable energy system?
+                                </summary>
+                                <div>
+                                    To install solar panels, find a qualified professional who has the certification to do so, such as an industry-stand 
+                                    certification, which is received through the North American Board of Certified Energy Practitioners (NABCEP). Your 
+                                    installer will work with you to find the appropriate size for your system and work with your energy needs.
+                                    Your roof must be compatible with solar panels, and if necessary, a new roof may be needed. Before installing 
+                                    your solar panels, you would need permits from your locality. 
+                                </div>
+                              </details>
+                              </div>
+                              <div class="container">
+                                <details>
+                                <summary>How can I monitor the performance of my renewable energy system?
+                                </summary>
+                                <div>
+                                    To monitor the performance of renewable energy systems through meters and other instruments. These instruments 
+                                    allow you to track the system’s battery voltage, the amount of power you are consuming, and the level which the battery 
+                                    is charged, etc. 
+                                </div>
+                              </details>
+                              </div>
+                              <div class="container">
+                                <details>
+                                <summary>What kind of maintenance is required for wind turbines?
+                                </summary>
+                                <div>
+                                    For maintenance, you should check with your installer. Annual maintenance includes checking and tightening bolts and electical 
+                                    connections, examining machines for corrosions and guy wires for proper tension. Replace any worn or old edge tape on the turbine 
+                                    blades and other components such as turbine blades or bearings. Many installers usually provide programs for maintenance.
+                                </div>
+                              </details>
+                              </div>
+                              <div class="container" style="padding-bottom: 10vh;">
+                                <details>
+                                <summary>How reliable are renewable energy systems in different weather conditions?
+                                </summary>
+                                <div>
+                                    Renewable energy systems are reliable in adverse weather conditions. Battery storages in solar panels store power from the renewable energy sources 
+                                    and deliver it to the grid when that energy is needed, guaranteeing energy during adverse weather conditions.
+                                </div>
+                              </details>
+                              </div>
+                            </div>
+                              <div id="bottom-navbar" style="position: absolute; bottom: -180%;">
+			<div id="benefits-bottom">
+				<div class="bot-nav-content">
+					<div id="benefits-bottom-title">
+						<h3>BENEFITS</h3>
+						<hr class="bot-nav-line" />
+					</div>
+					<!--Bottom Naviagation Bar Benefits Title-->
+					<div id="benefits-list">
+						<ul class="bottom-list">
+							<a href="/HTML/Benefits.html#better_health"><li>Better Health</li></a>
+							<a href="/HTML/Benefits.html#sustainability"><li>Sustainability</li></a>
+							<a href="/HTML/Benefits.html#tax_rebates"><li>Tax Rebates</li></a>
+							<a href="/HTML/Benefits.html#smart_home"><li>Smart Home</li></a>
+						</ul>
+					</div>
+				</div>
+				<!--Bottom Naviagation Bar Benefits List-->
+			</div>
+			<!--Bottom Naviagation Bar Benefits Section-->
+
+			<div id="intiatives-bottom">
+				<div class="bot-nav-content">
+					<div id="intiatives-bottom-title">
+						<h3>INTIATIVES</h3>
+						<hr class="bot-nav-line" />
+					</div>
+					<!--Botton Naviagation Bar Intiatives Title-->
+					<div id="intiatives-list">
+						<ul class="bottom-list">
+                            <a href="/HTML/Solar Panels.html"><li>Solar Panels</li></a>
+							<a href="/HTML/Wind Turbines.html"><li>Wind Turbines</li></a>
+                            <a href="/HTML/ENERGY STAR.html"><li>ENERGY STAR</li></a>
+							<a href="/HTML/CHP.html"><li>CHP</li></a>
+						</ul>
+					</div>
+					<!-- Bottom Naviagation Bar Intiatives Lists-->
+				</div>
+			</div>
+			<div id="about-bottom">
+				<div class="bot-nav-content">
+					<div id="about-bottom-title">
+						<h3>ABOUT US</h3>
+						<hr class="bot-nav-line" />
+					</div>
+					<!--Bottom Naviagation Bar "About Us" Title-->
+					<div id="about-list">
+						<ul class="bottom-list">
+							<a href="/HTML/References"><li>References</li></a>
+							<a href="/HTML/FAQ"><li>FAQ</li></a>
+						</ul>
+					</div>
+				</div>
+				<!--Bottom -->
+		</div>						
+			</div>
+		</div>
+	</body>
+</html>
