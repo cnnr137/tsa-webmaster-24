@@ -474,3 +474,39 @@ body {
 	transform: translateY(0);
 	opacity: 1;
 }
+
+.benefit-bg {
+  position: absolute;
+  height: 100vh;
+  width: auto;
+  top: 0%;
+  left: 0%;
+}
+.benefits {
+  width: 55vw;
+  height: 100vh;
+  position: absolute;
+  top: 0%;
+  left: 45%;
+  background-image: linear-gradient(to bottom, var(--color-darkgreen), #104224);
+  float: right;
+}
+
+.benefits img {
+  width: 30vw;
+  height: auto;
+  position: relative;
+  top: 15%;
+  right: 15%;
+}
+
+.benefits ul {
+  position: relative;
+  top: 15vh;
+  margin-bottom: 1vh;
+  font-size: 2.5vh;
+  line-height: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  color: white; 
+}
