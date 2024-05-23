@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			navbar.classList.add("scrolled")
 			navbar.classList.remove("unscrolled")
 			title.classList.remove("green-text")
-			tile.classList.add("sc-title")
+			title.classList.add("sc-title")
 		} else {
 			navbar.classList.remove("scrolled")
 			navbar.classList.add("unscrolled")
