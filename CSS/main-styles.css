@@ -201,13 +201,114 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 20px;
   box-sizing: border-box;
-  height: 220vh;
+  height: 250vh;
   width: 100%;
   background-color: black;
 }
+
+.incentives-products {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ind-product {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-bottom: 50px;
+  border: 5px solid #87d571;
+  border-radius: 35px;
+  width: 75%;
+  height: 18%;
+  position: relative;
+  justify-content: flex-start;
+}
+
+.prod-image {
+  width: 45%;
+  border: 2px solid white;
+}
+
+.prod-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: white;
+  position: relative;
+}
+
+.prod-info h3 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.prod-info p {
+  text-align: center;
+  width: 55%;
+  color: #9fa2b2;
+  font-size: 1.2em;
+}
+
+.prod-info ul {
+  padding: 0;
+  column-count: 2;
+  column-width: 50%;
+  column-gap: 3em;
+}
+
+.prod-info ul li {
+  margin-top: 1em;
+  text-decoration: none;
+  list-style: none;
+}
+
+.prod-info ul li::before {
+  content: "✔";
+  margin-right: 1em;
+  color: white;
+  font-weight: bold;
+}
+
+.prod-info button {
+  color: white;
+  font-weight: 750;
+  right: 50%;
+  left: 50%;
+  position: absolute;
+  width: 20%;
+  bottom: -1em;
+  transform: translateX(-150%);
+  padding: 8px 0;
+  border: 1px transparent solid;
+  border-radius: 50px;
+  background: linear-gradient(to right, #00ad48, #008134);
+}
+
+.prod-info button:hover {
+  cursor: pointer;
+  padding: 10px 2px;
+}
+
+.prod-line {
+  width: 60%;
+  border: 1px solid #87d571;
+  border-radius: 5px;
+  height: 2px;
+  background-color: #87d571;
+}
+
+#wind-button {
+  right: 50%;
+  left: 96%;
+}
+
 
 .program-page h2 {
   margin-top: 50px;
@@ -216,7 +317,7 @@ html {
   font-family: Verdana, Geneva, sans-serif;
 }
 
-.light-green {
+#light-green {
   color: #8ed973;
 }
 
