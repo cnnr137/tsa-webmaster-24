@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body,
 html {
   margin: 0;
   padding: 0;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Libre Franklin', Geneva, sans-serif;
 }
 
 .top-navbar {
@@ -32,7 +36,8 @@ html {
 }
 
 .top-navbar h2 {
-  margin: 0;
+	margin: 0;
+  float: right;
 }
 
 .top-navbar a {
@@ -117,7 +122,7 @@ html {
 .home-page {
   display: flex;
   align-items: center;
-  background-image: url(Home-image.jpg);
+  background-image: url(../Images/home_image.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -204,7 +209,8 @@ html {
   box-sizing: border-box;
   height: 300vh;
   width: 100%;
-  background-color: black;
+  background-size:cover;
+  background-image: url(../Images/homepage_initiative.png);
   flex: 0 0 100%;
 }
 
@@ -222,7 +228,7 @@ html {
   margin: auto;
   margin-bottom: 50px;
   border: 5px solid #87d571;
-  border-radius: 35px;
+  border-radius: 80px;
   width: 75%;
   height: 18%;
   position: relative;
@@ -231,7 +237,6 @@ html {
 
 .prod-image {
   width: 45%;
-  border: 2px solid white;
 }
 
 .prod-info {
@@ -314,7 +319,7 @@ html {
   margin-top: 50px;
   text-align: center;
   font-size: 2em;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Poppins', Geneva, sans-serif;
 }
 
 #light-green {
@@ -322,7 +327,7 @@ html {
 }
 
 #initiative-heading {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Poppins', Geneva, sans-serif;
   color: white;
   font-size: 2.6em;
 }
@@ -330,7 +335,7 @@ html {
 #initiative-subheading {
   color: #9fa2b2;
   font-style: italic;
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: 'Libre Franklin', Geneva, sans-serif;
   font-size: 1.3em;
   font-weight: 100;
   word-spacing: 0.125em;
@@ -397,7 +402,7 @@ html {
 }
 
 .prog ul li {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Libre Franklin', Geneva, Tahoma, sans-serif;
   text-emphasis: 1000;
   font-size: 1em;
   position: relative;
@@ -414,6 +419,7 @@ html {
 }
 
 .prog h2 {
+font-family: 'Poppins', Geneva, Tahoma, sans-serif;
   font-size: 2.5em;
   width: 60%;
   justify-content: end;
@@ -660,3 +666,11 @@ html {
   width: 150%;
 }
 
+.logo {
+	height:4vh;
+	width: auto;
+	float: left;
+	margin-top: -0.5vh;
+	margin-bottom: 1vh;
+	margin-right: 0.5vw;
+  }
